@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/Schneider-Joachim/capstone-backend/issues"
   },
-  "homepage": "https://github.com/Schneider-Joachim/capstone-backend#readme"
+  "homepage": "https://github.com/Schneider-Joachim/capstone-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.9.0",
+    "sequelize": "^6.29.0"
+  }
 }
