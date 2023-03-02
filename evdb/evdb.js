@@ -5,7 +5,7 @@ import ModelModel from "./Model.js";
 import DrivetrainModel from "./Drivetrain.js";
 import DrivepowerModel from "./Drivepower.js";
 
-// to connect posgresql db
+// to connect posgresql db and models to db globally
 const evdb = new Sequelize("postgres://worktime@localhost:5432/evdb");
 const Make = MakeModel(evdb);
 const Model = ModelModel(evdb);
